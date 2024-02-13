@@ -2,18 +2,20 @@
 requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
 
-[tool.poetry]
+[project]
 name = "grikod"
 version = "1.0.0"
+authors = [
+  { name="Mehmet Keçeci", email="mkececi@yaani.com" },
+]
 description = "İkili sayıları Gri Koda çevirir"
-authors = ["Mehmet Keçeci <mkececi@yaani.com>"]
 readme = "README.md"
+requires-python = ">=3.8"
 repository = "https://github.com/KuantumBS/grikod/"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
 
-[tool.poetry.dependencies]
-python = "^3.11"
-
-
-[build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
+[project.urls]
+Homepage = "https://github.com/KuantumBS/grikod/"
