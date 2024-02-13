@@ -1,2 +1,1 @@
-# grikod
-İkili sayıları Gri Koda çevirir
+Gri Kod: İkili sayıları Gri Koda çevirir
