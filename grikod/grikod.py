@@ -1,4 +1,4 @@
-def ikili_2_gri_kod(i2grik: str) -> str: # versiyon: 1.0.0
+def ikili_2_gri_kod(i2grik: str) -> str:
     # Dizeyi tamsayıya dönüştür
     i2grikod = int(i2grik, 2)
     
