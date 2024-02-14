@@ -8,13 +8,13 @@ pip install -i https://test.pypi.org/simple/ grikod -U
 
 pip install grikod -U # Aktif olarak daha yayına geçmemiştir: It has not been actively published yet.
 
-## Github Master kurulumu:
+## Github Master kurulumu: Github Master installation
 
-## Terminal:
+### Terminal:
 
 pip install git+https://github.com/KuantumBS/grikod.git
 
-## Jupyter Lab, Notebook, Vsiual Studio Code içnden kurulum: Installation for Jupyter Lab, Notebook, Vsiual Studio Code
+### Jupyter Lab, Notebook, Vsiual Studio Code içnden kurulum: Installation for Jupyter Lab, Notebook, Vsiual Studio Code
 
 !pip install git+https://github.com/KuantumBS/grikod.git
 
