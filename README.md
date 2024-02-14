@@ -1,20 +1,20 @@
-##Grikod
+## Grikod
 
 Gri Kod: İkili sayıları Gri Koda çevirir
 
-#Kurulum: Installation
+# Kurulum: Installation
 
 pip install -i https://test.pypi.org/simple/ grikod -U
 
 pip install grikod -U # Aktif olarak daha yayına geçmemiştir: It has not been actively published yet.
 
-Github Master kurulumu:
+# Github Master kurulumu:
 
-#Terminal:
+# Terminal:
 
 pip install git+https://github.com/KuantumBS/grikod.git
 
-#Jupyter Lab, Notebook, Vsiual Studio Code içnden kurulum:
+# Jupyter Lab, Notebook, Vsiual Studio Code içnden kurulum: Installation for Jupyter Lab, Notebook, Vsiual Studio Code
 
 !pip install git+https://github.com/KuantumBS/grikod.git
 
@@ -22,8 +22,7 @@ veya/or
 
 %pip install git+https://github.com/KuantumBS/grikod.git
 
-
-#Kullanım: Usage
+# Kullanım: Usage
 
 import grikod
 
