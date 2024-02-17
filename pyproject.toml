@@ -4,11 +4,11 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "grikod"
-version = "1.0.3"
+version = "1.0.5"
 authors = [
   { name="Mehmet Keçeci", email="mkececi@yaani.com" },
 ]
-description = "İkili sayıları Gri Koda çevirir"
+description = "İkili sayıları Gri Koda çevirir. Grikod (Gri Kod, Gray Code, Grey Code)"
 readme = "README.md"
 requires-python = ">=3.8"
 classifiers = [
