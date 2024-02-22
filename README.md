@@ -52,7 +52,7 @@ Gri Kod sayısı:  111
 
 ## Lisans: License
 
-Açık Kaynak: Open Source, MIT, Apache License 2.0
+Açık Kaynak: Open Source, MIT, Apache License 2.0, GNU General Public License (GPL), GPLv3
 
 ## Bağımlılıkları: 
 
