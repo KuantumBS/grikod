@@ -1,4 +1,6 @@
 # Tanım: Description: Grikod (Gri Kod, Gray Code, Grey Code)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FKuantumBS%2Fgrikod.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FKuantumBS%2Fgrikod?ref=badge_shield)
+
 
 Gri Kod: İkili sayıları Gri Koda çevirir
 
@@ -53,6 +55,9 @@ Gri Kod sayısı:  111
 ## Lisans: License
 
 Açık Kaynak: Open Source, MIT, Apache License 2.0, GNU General Public License (GPL), GPLv3
+
+
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FKuantumBS%2Fgrikod.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FKuantumBS%2Fgrikod?ref=badge_large)
 
 ## Bağımlılıkları: 
 
