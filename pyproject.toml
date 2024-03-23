@@ -5,6 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "grikod"
 version = "1.0.5"
+license = {file = "LICENSE"}
 authors = [
   { name="Mehmet Keçeci", email="mkececi@yaani.com" },
 ]
