@@ -1,4 +1,6 @@
 # Tanım: Description: Grikod (Gri Kod, Gray Code, Grey Code)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FKuantumBS%2Fgrikod.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FKuantumBS%2Fgrikod?ref=badge_shield)
+
 
 Gri Kod: İkili sayıları Gri Koda çevirir
 
@@ -54,10 +56,12 @@ Gri Kod sayısı:  111
 
 Açık Kaynak: Open Source, MIT, Apache License 2.0, GNU General Public License (GPL), GPLv3
 
+
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FKuantumBS%2Fgrikod.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FKuantumBS%2Fgrikod?ref=badge_large)
+
 ## Bağımlılıkları: 
 
-Python >= 3.8
-
+add-license-scan-badge
 ================================================================================
 ================================================================================
 
@@ -112,7 +116,3 @@ https://app.fossa.com/api/projects/git%2Bgithub.com%2FKuantumBS%2Fgrikod.svg?typ
 <a href="https://app.fossa.com/projects/git%2Bgithub.com%2FKuantumBS%2Fgrikod?ref=badge_large&issueType=license" alt="FOSSA Status"><img src="https://app.fossa.com/api/projects/git%2Bgithub.com%2FKuantumBS%2Fgrikod.svg?type=large&issueType=license"/></a>
 
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FKuantumBS%2Fgrikod.svg?type=large&issueType=license)](https://app.fossa.com/projects/git%2Bgithub.com%2FKuantumBS%2Fgrikod?ref=badge_large&issueType=license)
-
-
-
-
