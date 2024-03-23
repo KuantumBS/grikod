@@ -10,10 +10,17 @@ authors = [
 ]
 description = "İkili sayıları Gri Koda çevirir. Grikod (Gri Kod, Gray Code, Grey Code)"
 readme = "README.md"
-requires-python = ">=3.8"
+requires-python = ">=3.9"
 classifiers = [
     "Programming Language :: Python :: 3",
     "Operating System :: OS Independent",
+    'Topic :: Software Development',
+    'Topic :: Scientific/Engineering',
+    'Typing :: Typed',
+    'Operating System :: Microsoft :: Windows',
+    'Operating System :: POSIX',
+    'Operating System :: Unix',
+    'Operating System :: MacOS',
 ]
 
 [project.urls]
