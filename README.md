@@ -1,6 +1,9 @@
 # Tanım: Description: Grikod (Gri Kod, Gray Code, Grey Code)
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FKuantumBS%2Fgrikod.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FKuantumBS%2Fgrikod?ref=badge_shield)
 
+[![Documentation Status](https://readthedocs.org/projects/grikod/badge/?version=latest)](https://grikod.readthedocs.io/en/latest/?badge=latest)
+      
+
 
 Gri Kod: İkili sayıları Gri Koda çevirir
 
