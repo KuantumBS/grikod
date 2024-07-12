@@ -54,6 +54,10 @@ Gri Kod sayısı:  111
 
 111:100 
 
+##References
+
+Keçeci, Mehmet. “Grikod”. Zenodo, February 18, 2024. https://doi.org/10.5281/zenodo.12731346.
+
 ## Lisans: License
 
 Açık Kaynak: Open Source, MIT, Apache License 2.0, GNU General Public License (GPL), GPLv3
