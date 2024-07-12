@@ -3,6 +3,8 @@
 
 [![Documentation Status](https://readthedocs.org/projects/grikod/badge/?version=main)](https://grikod.readthedocs.io/en/main/?badge=main)
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.12731346.svg)](https://doi.org/10.5281/zenodo.12731346)
+
 
 Gri Kod: İkili sayıları Gri Koda çevirir
 
@@ -54,7 +56,7 @@ Gri Kod sayısı:  111
 
 111:100 
 
-##References
+## References
 
 Keçeci, Mehmet. “Grikod”. Zenodo, February 18, 2024. https://doi.org/10.5281/zenodo.12731346.
 
