@@ -53,7 +53,7 @@ pip install git+https://github.com/KuantumBS/grikod.git
 ```python
 import grikod
 
-# Run this cell (Shift+enter): Input: 100
+# Run this cell (Shift+Enter): Input: 100
 # Output example
 # 000:000
 # 001:001
@@ -63,6 +63,7 @@ import grikod
 # 101:111
 # 110:101
 # 111:100
+# Restart Kernel and Clear Oputputs
 ```
 
 ---
