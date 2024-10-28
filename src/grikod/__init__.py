@@ -5,6 +5,7 @@ from __future__ import annotations
 import warnings
 # from . import grikod  # Import kept if referenced elsewhere
 
+
 # Function with deprecation warning
 def eski_fonksiyon():
     warnings.warn(
@@ -12,6 +13,7 @@ def eski_fonksiyon():
         "Grikod Python 3.8-3.13 sürümlerinde sorunsuz çalışmalıdır.",
         DeprecationWarning
     )
+
 
 # Call the function if needed during initialization
 eski_fonksiyon()
