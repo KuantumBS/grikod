@@ -63,7 +63,7 @@ import grikod
 # 101:111
 # 110:101
 # 111:100
-# Restart Kernel and Clear Oputputs
+# Restart Kernel and Clear Outputs
 ```
 
 ---
