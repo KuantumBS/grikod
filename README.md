@@ -53,11 +53,7 @@ pip install git+https://github.com/KuantumBS/grikod.git
 ```python
 import grikod
 
-# Example input
-binary_input = "101"
-gray_code = grikod.convert_to_gray(binary_input)
-print("Gray Code:", gray_code)
-
+#Run this cell (Shift+enter): Input: 100
 # Output example
 # 000:000
 # 001:001
