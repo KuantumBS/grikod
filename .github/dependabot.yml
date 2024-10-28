@@ -2,10 +2,15 @@
 # package ecosystems to update and where the package manifests are located.
 # Please see the documentation for all configuration options:
 # https://docs.github.com/code-security/dependabot/dependabot-version-updates/configuration-options-for-the-dependabot.yml-file
+# Dependabot configuration for automatic dependency updates
 
 version: 2
 updates:
-  - package-ecosystem: "" # See documentation for possible values
-    directory: "/" # Location of package manifests
+  - package-ecosystem: "pip" # Specify package ecosystem (e.g., pip, npm, maven)
+    directory: "/"           # Location of package manifests
     schedule:
-      interval: "weekly"
+      interval: "weekly"     # Check for updates weekly
+    open-pull-requests-limit: 10 # Limit the number of open pull requests
+    ignore:
+      - dependency-name: "example-package" # Specify dependencies to ignore, if any
+        versions: ["1.x"] # Ignore specific versions if needed
