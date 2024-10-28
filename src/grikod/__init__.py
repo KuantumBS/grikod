@@ -1,5 +1,5 @@
 from __future__ import annotations
-from . import  grikod
+from . import grikod
 import warnings
 
 def eski_fonksiyon():
