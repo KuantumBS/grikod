@@ -1,4 +1,3 @@
-```markdown
 # Grikod (Gri Kod, Gray Code)
 
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FKuantumBS%2Fgrikod.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FKuantumBS%2Fgrikod?ref=badge_shield)
@@ -83,5 +82,3 @@ Keçeci, Mehmet. “Grikod.” Zenodo, February 18, 2024. [https://doi.org/10.52
 Açık Kaynak: MIT, Apache License 2.0, GNU General Public License (GPL), GPLv3
 
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FKuantumBS%2Fgrikod.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FKuantumBS%2Fgrikod?ref=badge_large)
-```
-
