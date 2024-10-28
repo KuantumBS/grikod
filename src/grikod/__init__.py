@@ -3,7 +3,7 @@
 
 from __future__ import annotations
 import warnings
-# from . import grikod  # Import kept if referenced elsewhere
+from . import grikod  # Import kept if referenced elsewhere
 
 
 # Function with deprecation warning
