@@ -86,3 +86,6 @@ Keçeci, Mehmet. “Grikod.” Zenodo, February 18, 2024. [https://doi.org/10.52
 Açık Kaynak: MIT, Apache License 2.0, GNU General Public License (GPL), GPLv3
 
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FKuantumBS%2Fgrikod.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FKuantumBS%2Fgrikod?ref=badge_large)
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/IJnIpOuV92E?si=P6oCjUmkFaKKprEq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
