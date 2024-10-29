@@ -3,7 +3,8 @@
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FKuantumBS%2Fgrikod.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FKuantumBS%2Fgrikod?ref=badge_shield)
 [![Documentation Status](https://readthedocs.org/projects/grikod/badge/?version=main)](https://grikod.readthedocs.io/en/main/?badge=main)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.12731346.svg)](https://doi.org/10.5281/zenodo.12731346)
-[![Anaconda](https://anaconda.org/bilgi/grikod/badges/version.svg)
+
+[Anaconda](https://anaconda.org/bilgi/grikod/badges/version.svg)
 
 ## Tanım (Türkçe)
 
