@@ -77,7 +77,11 @@ import grikod
 
 ## References
 
-Keçeci, Mehmet. “Grikod.” Zenodo, February 18, 2024. [https://doi.org/10.5281/zenodo.12731346](https://doi.org/10.5281/zenodo.12731346)
+Keçeci, Mehmet. “Grikod.” PYPI, February 18, 2024. [https://doi.org/10.5281/zenodo.12731346](https://doi.org/10.5281/zenodo.12731346).
+
+Keçeci, Mehmet. “Grikod”. Python Package Index, October 29, 2024. [[https://doi.org/10.5281/zenodo.12731346](https://doi.org/10.5281/zenodo.14004878).
+
+Keçeci, Mehmet. “Grikod”. Anaconda, Inc., October 29, 2024. [https://doi.org/10.5281/zenodo.12731346](https://doi.org/10.5281/zenodo.12731346).
 
 ---
 
