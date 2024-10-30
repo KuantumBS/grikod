@@ -26,7 +26,9 @@ Grikod converts binary numbers to Gray Code.
 ```bash
 pip install grikod -U
 
-conda install bilgi::grikod
+conda install bilgi::grikod -y
+
+mamba install bilgi::grikod -y
 ```
 
 [PyPI](https://pypi.org/project/grikod/)
