@@ -61,8 +61,8 @@ pip install git+https://github.com/KuantumBS/grikod.git
 
 ```python
 import importlib
-importlib.reload(grikod)
 import grikod
+importlib.reload(grikod)
 
 # Run this cell (Shift+Enter): Input: 100
 # Output example
