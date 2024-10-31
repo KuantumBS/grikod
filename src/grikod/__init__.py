@@ -5,7 +5,7 @@ from __future__ import annotations
 import importlib
 import warnings
 from . import grikod  # Import kept if referenced elsewhere
-importlib.reload(grikod) # Modülünüzün ana dosyasını burada yeniden yükleyin
+importlib.reload(grikod) # Modülünüzün ana dosyasını burada yeniden yükler
 
 
 # Function with deprecation warning
