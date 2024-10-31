@@ -12,7 +12,7 @@ importlib.reload(grikod) # Modülünüzün ana dosyasını burada yeniden yükle
 def eski_fonksiyon():
     warnings.warn(
         "Bu fonksiyon gelecekte kaldırılacak. Lütfen alternatif bir fonksiyon kullanın. "
-        "Grikod Python 3.8-3.13 sürümlerinde sorunsuz çalışmalıdır.",
+        "Grikod Python 3.8-3.14 sürümlerinde sorunsuz çalışmalıdır.",
         DeprecationWarning
     )
 
