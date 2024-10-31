@@ -60,6 +60,8 @@ pip install git+https://github.com/KuantumBS/grikod.git
 ## Kullanım (Türkçe) / Usage (English)
 
 ```python
+import importlib
+importlib.reload(grikod)
 import grikod
 
 # Run this cell (Shift+Enter): Input: 100
