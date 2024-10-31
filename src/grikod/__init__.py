@@ -2,8 +2,10 @@
 # Add necessary blank lines to satisfy E302 and E305
 
 from __future__ import annotations
+import importlib
 import warnings
 from . import grikod  # Import kept if referenced elsewhere
+importlib.reload(grikod) # Modülünüzün ana dosyasını burada yeniden yükleyin
 
 
 # Function with deprecation warning
