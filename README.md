@@ -115,7 +115,9 @@ month = nov,
 
 title = {{Gri Kod}},
 
-url = {https://pypi.org/project/grikod/},
+url = {
+https://pypi.org/project/grikod/
+},
 
 version = {1.0.7},
 
