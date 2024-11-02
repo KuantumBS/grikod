@@ -12,7 +12,7 @@ authors = [
 description = "İkili sayıları Gri Koda çevirir. Grikod (Gri Kod, Gray Code, Grey Code)"
 readme = "README.md"
 requires-python = ">=3.8"
-keywords = ["binary", "Gray code", "Gri Kod", "encoding"]
+keywords = ["Gri Kod", "Encoding", "Binary", "Gray Code"]
 
 classifiers = [
     "Programming Language :: Python :: 3",
