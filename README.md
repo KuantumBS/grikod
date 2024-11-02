@@ -83,7 +83,15 @@ importlib.reload(grikod) # Modülünüzün ana dosyasını burada yeniden yükle
 
 ---
 
+## Cite this repository:
+
+APA Style:
+
+Keçeci, M. (2024). Gri Kod (Version 1.0.7) [Computer software]. https://pypi.org/project/grikod/
+
 ## References
+
+Chicago Style:
 
 Keçeci, Mehmet. “Grikod”. Anaconda, Inc., November 01, 2024. [https://zenodo.org/records/14029276](https://zenodo.org/records/14029276).
 
@@ -94,6 +102,18 @@ Keçeci, Mehmet. “Grikod”. Python Package Index, October 29, 2024. [https://
 Keçeci, Mehmet. “Grikod”. Anaconda, Inc., October 29, 2024. [https://doi.org/10.5281/zenodo.14004846](https://doi.org/10.5281/zenodo.14004846).
 
 Keçeci, Mehmet. “Grikod.” PYPI, February 18, 2024. [https://doi.org/10.5281/zenodo.12731346](https://doi.org/10.5281/zenodo.12731346).
+
+## BibTeX
+
+@software{Kececi_Gri_Kod_2024,
+author = {Keçeci, Mehmet},
+license = {MIT},
+month = nov,
+title = {{Gri Kod}},
+url = {https://pypi.org/project/grikod/},
+version = {1.0.7},
+year = {2024}
+}
 
 ---
 
