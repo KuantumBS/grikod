@@ -106,13 +106,21 @@ Keçeci, Mehmet. “Grikod.” PYPI, February 18, 2024. [https://doi.org/10.5281
 ## BibTeX
 
 @software{Kececi_Gri_Kod_2024,
+
 author = {Keçeci, Mehmet},
+
 license = {MIT},
+
 month = nov,
+
 title = {{Gri Kod}},
+
 url = {https://pypi.org/project/grikod/},
+
 version = {1.0.7},
+
 year = {2024}
+
 }
 
 ---
