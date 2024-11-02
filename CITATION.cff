@@ -15,6 +15,8 @@ authors:
 identifiers:
   - type: doi
     value: 10.5281/zenodo.14029245
+  - type: doi
+    value: 10.5281/zenodo.14029276
 repository-code: 'https://pypi.org/project/grikod/'
 url: 'https://github.com/KuantumBS/grikod'
 repository: 'https://anaconda.org/bilgi/grikod'
