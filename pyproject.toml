@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "grikod"
-version = "1.0.7"
+dynamic = ["version"]
 license = {file = "LICENSE"}
 authors = [
   { name="Mehmet Keçeci", email="mkececi@yaani.com" },
@@ -28,6 +28,9 @@ classifiers = [
     "Intended Audience :: Developers",
     "Intended Audience :: Science/Research",
 ]
+
+[tool.setuptools_scm]
+version_file = "src/grikod/_version.py"
 
 [project.urls]
 Homepage = "https://github.com/KuantumBS/grikod/"
