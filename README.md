@@ -85,7 +85,9 @@ importlib.reload(grikod) # Modülünüzün ana dosyasını burada yeniden yükle
 
 ## References
 
-Keçeci, Mehmet. “Grikod”. Python Package Index, November 01, 2024. [https://zenodo.org/records/14029245](https://zenodo.org/records/14029245)
+Keçeci, Mehmet. “Grikod”. Anaconda, Inc., November 01, 2024. [https://zenodo.org/records/14029276](https://zenodo.org/records/14029276).
+
+Keçeci, Mehmet. “Grikod”. Python Package Index, November 01, 2024. [https://zenodo.org/records/14029245](https://zenodo.org/records/14029245).
 
 Keçeci, Mehmet. “Grikod”. Python Package Index, October 29, 2024. [https://doi.org/10.5281/zenodo.14004878](https://doi.org/10.5281/zenodo.14004878).
 
