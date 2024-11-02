@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-__version__ = "1.0.7"
+__version__ = "1.0.8"
 __license__ = "Açık Kaynak: Open Source, MIT, Apache License 2.0"
 __description__ = "Grikod (Gri Kod, Gray Code, Grey Code)"
 __author__ = "Mehmet Keçeci"
