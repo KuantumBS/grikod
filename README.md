@@ -36,7 +36,6 @@ mamba install bilgi::grikod -y
 ```diff
 - pip uninstall grikod -y
 + pip install -U grikod
-    ...
 ```
 
 [PyPI](https://pypi.org/project/grikod/)
