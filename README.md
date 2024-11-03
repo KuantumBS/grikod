@@ -88,7 +88,23 @@ importlib.reload(grikod) # Modülünüzün ana dosyasını burada yeniden yükle
 # 110:101
 # 111:100
 ```
+```python
+import grikod
+grikod.__version__
+```
+---
 
+### Development
+
+```
+Terminal
+git clone https://github.com/KuantumBS/grikod.git
+cd grikod
+python -m pip install -ve . # Install package in development mode
+
+Notebook, Jupyterlab, Colab, Visual Studio Code
+!python -m pip install git+https://github.com/KuantumBS/grikod.git
+```
 ---
 
 ## Citation
