@@ -11,11 +11,11 @@
 
 ## Tanım (Türkçe)
 
-Gri Kod: İkili sayıları Gri Koda çevirir
+Gri Kod: Grikod İkili sayıları Gri Koda çevirir
 
 ## Description (English)
 
-Grikod converts binary numbers to Gray Code.
+Gri Kod: Grikod converts binary numbers to Gray Code.
 
 ![Gri Kod](https://i.imgur.com/6wpucpo.png)
 
@@ -31,6 +31,12 @@ pip install grikod -U
 conda install bilgi::grikod -y
 
 mamba install bilgi::grikod -y
+```
+
+```diff
+- pip uninstall grikod -y
++ pip install -U grikod
+    ...
 ```
 
 [PyPI](https://pypi.org/project/grikod/)
