@@ -28,6 +28,8 @@ Gri Kod: Grikod converts binary numbers to Gray Code.
 ```bash
 pip install grikod -U
 
+python -m pip install -U grikod
+
 conda install bilgi::grikod -y
 
 mamba install bilgi::grikod -y
@@ -36,6 +38,7 @@ mamba install bilgi::grikod -y
 ```diff
 - pip uninstall grikod -y
 + pip install -U grikod
++ python -m pip install -U grikod
 ```
 
 [PyPI](https://pypi.org/project/grikod/)
