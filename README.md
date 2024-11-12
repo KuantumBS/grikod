@@ -8,6 +8,8 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.12731346.svg)](https://doi.org/10.5281/zenodo.12731346)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14029245.svg)](https://doi.org/10.5281/zenodo.14029245)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14029276.svg)](https://doi.org/10.5281/zenodo.14029276)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14099425.svg)](https://doi.org/10.5281/zenodo.14099425)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14099659.svg)](https://doi.org/10.5281/zenodo.14099659)
 
 [![Anaconda-Server Badge](https://anaconda.org/bilgi/grikod/badges/version.svg)](https://anaconda.org/bilgi/grikod)
 [![Anaconda-Server Badge](https://anaconda.org/bilgi/grikod/badges/latest_release_date.svg)](https://anaconda.org/bilgi/grikod)
@@ -145,6 +147,10 @@ Keçeci, M. (2024). Gri Kod: Grikod converts binary numbers to Gray Code. (Versi
 ### Chicago
 
 ```
+Keçeci, Mehmet. “Grikod”. Anaconda, Inc., November 12, 2024. [https://zenodo.org/records/14099659](https://doi.org/10.5281/zenodo.14099659).
+
+Keçeci, Mehmet. “Grikod”. PYPI, Python Package Index, Python Software Foundation, November 12, 2024. https://doi.org/10.5281/zenodo.14099425.
+
 Keçeci, Mehmet. “Grikod”. Anaconda, Inc., November 01, 2024. [https://zenodo.org/records/14029276](https://zenodo.org/records/14029276).
 
 Keçeci, Mehmet. “Grikod”. Python Package Index, November 01, 2024. [https://zenodo.org/records/14029245](https://zenodo.org/records/14029245).
