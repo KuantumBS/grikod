@@ -14,9 +14,9 @@ authors:
     orcid: 'https://orcid.org/0000-0001-9937-9839'
 identifiers:
   - type: doi
-    value: 10.5281/zenodo.14029245
+    value: 10.5281/zenodo.14099425
   - type: doi
-    value: 10.5281/zenodo.14029276
+    value: 10.5281/zenodo.14099659
 repository-code: 'https://pypi.org/project/grikod/'
 url: 'https://github.com/KuantumBS/grikod'
 repository: 'https://anaconda.org/bilgi/grikod'
@@ -24,5 +24,5 @@ abstract: Binary to Gray code conversion package.
 keywords:
   - 'Gri Kod, Encoding, Binary, Gray Code'
 license: MIT
-version: 1.0.7
-date-released: '2024-11-01'
+version: 1.0.8
+date-released: '2024-11-12'
