@@ -6,8 +6,8 @@ package:
 
 source:
   path: .  # Doğru kaynak dizinini belirtin
-  url: https://files.pythonhosted.org/packages/21/ad/7c3c6e9320e14d825c626cddea9e6ce0732d6b6669a56de84d4894776aaf/grikod-1.0.7.tar.gz
-  sha256: d202aab8935c7575bce41ef6e6fd02ee99c8b9e5ed63274671e1c5658495e38d
+  url: 
+  sha256: 
 
 build:
   noarch: python  # Bu ayar, paketin tüm Python sürümlerinde çalışmasını sağlar # generic
