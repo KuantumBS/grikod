@@ -1,0 +1,33 @@
+{% set version = "1.0.7" %}
+
+package:
+  name: grikod
+  version: {{ version }}
+
+source:
+  path: .  # Doğru kaynak dizinini belirtin
+  url: https://files.pythonhosted.org/packages/21/ad/7c3c6e9320e14d825c626cddea9e6ce0732d6b6669a56de84d4894776aaf/grikod-1.0.7.tar.gz
+  sha256: d202aab8935c7575bce41ef6e6fd02ee99c8b9e5ed63274671e1c5658495e38d
+
+build:
+  noarch: python  # Bu ayar, paketin tüm Python sürümlerinde çalışmasını sağlar # generic
+  script: python -m pip install --no-deps --ignore-installed .  # veya başka bir kurulum komutu
+  number: 0
+
+requirements:
+  host:
+    - python
+    - pip
+  run:
+    - python
+
+about:
+  home: https://github.com/KuantumBS/grikod
+  license: MIT
+  summary: 'Binary to Gray code conversion package.'
+  description: |
+    Binary to Gray code conversion package.
+  dev_url: https://github.com/KuantumBS/grikod
+  doc_url: https://github.com/KuantumBS/grikod
+  doc_source_url: https://github.com/KuantumBS/grikod/blob/main/README.md
+
