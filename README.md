@@ -36,7 +36,7 @@ Gri Kod: Grikod converts binary numbers to Gray Code.
 
 ## Kurulum (Türkçe) / Installation (English)
 
-### Python ile Kurulum / Install with pip
+### Python ile Kurulum / Install with pip, conda, mamba
 
 ```bash
 pip install grikod -U
@@ -147,19 +147,19 @@ Keçeci, M. (2024). Gri Kod: Grikod converts binary numbers to Gray Code. (Versi
 ### Chicago
 
 ```
-Keçeci, Mehmet. “Grikod”. Anaconda, Inc., November 12, 2024. [https://zenodo.org/records/14099659](https://doi.org/10.5281/zenodo.14099659).
+Keçeci, Mehmet. “Grikod”. Anaconda, Inc., November 12, 2024. https://doi.org/10.5281/zenodo.14099659.
 
 Keçeci, Mehmet. “Grikod”. PYPI, Python Package Index, Python Software Foundation, November 12, 2024. https://doi.org/10.5281/zenodo.14099425.
 
-Keçeci, Mehmet. “Grikod”. Anaconda, Inc., November 01, 2024. [https://zenodo.org/records/14029276](https://zenodo.org/records/14029276).
+Keçeci, Mehmet. “Grikod”. Anaconda, Inc., November 01, 2024. https://zenodo.org/records/14029276.
 
-Keçeci, Mehmet. “Grikod”. Python Package Index, November 01, 2024. [https://zenodo.org/records/14029245](https://zenodo.org/records/14029245).
+Keçeci, Mehmet. “Grikod”. Python Package Index, November 01, 2024. https://zenodo.org/records/14029245.
 
-Keçeci, Mehmet. “Grikod”. Python Package Index, October 29, 2024. [https://doi.org/10.5281/zenodo.14004878](https://doi.org/10.5281/zenodo.14004878).
+Keçeci, Mehmet. “Grikod”. Python Package Index, October 29, 2024. https://doi.org/10.5281/zenodo.14004878.
 
-Keçeci, Mehmet. “Grikod”. Anaconda, Inc., October 29, 2024. [https://doi.org/10.5281/zenodo.14004846](https://doi.org/10.5281/zenodo.14004846).
+Keçeci, Mehmet. “Grikod”. Anaconda, Inc., October 29, 2024. https://doi.org/10.5281/zenodo.14004846.
 
-Keçeci, Mehmet. “Grikod.” PYPI, February 18, 2024. [https://doi.org/10.5281/zenodo.12731346](https://doi.org/10.5281/zenodo.12731346).
+Keçeci, Mehmet. “Grikod.” PYPI, February 18, 2024. https://doi.org/10.5281/zenodo.12731346.
 ```
 ---
 
