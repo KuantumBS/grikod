@@ -41,12 +41,6 @@ Gri Kod: Grikod converts binary numbers to Gray Code.
 ### Python ile Kurulum / Install with pip, conda, mamba
 
 ```bash
-git clone https://github.com/KuantumBS/grikod.git
-cd grikod
-python -m pip install .
-```
-
-```bash
 pip install grikod -U
 
 python -m pip install -U grikod
@@ -116,8 +110,7 @@ grikod.__version__
 ---
 
 ### Development
-
-```
+```bash
 Terminal
 git clone https://github.com/KuantumBS/grikod.git
 cd grikod
