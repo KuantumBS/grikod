@@ -1,4 +1,5 @@
 from setuptools import setup, find_packages
+import setuptools_scm
 
 setup(
     name='grikod',
