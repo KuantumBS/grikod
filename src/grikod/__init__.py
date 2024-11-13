@@ -21,4 +21,4 @@ def eski_fonksiyon():
 eski_fonksiyon()
 
 # Define module version
-__version__ = "1.0.8"
+__version__ = "1.0.80"
