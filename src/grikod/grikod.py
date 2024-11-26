@@ -1,3 +1,6 @@
+# default codeowners for all files
+* @WhiteSymmetry/KuantumBS/grikod
+
 from __future__ import annotations
 
 
