@@ -32,8 +32,6 @@ Gri Kod: Grikod İkili sayıları Gri Koda çevirir
 
 Gri Kod: Grikod converts binary numbers to Gray Code.
 
-![Gri Kod](https://i.imgur.com/6wpucpo.png)
-
 ---
 
 ## Kurulum (Türkçe) / Installation (English)
