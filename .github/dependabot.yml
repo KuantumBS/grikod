@@ -3,7 +3,6 @@
 # Please see the documentation for all configuration options:
 # https://docs.github.com/code-security/dependabot/dependabot-version-updates/configuration-options-for-the-dependabot.yml-file
 # Dependabot configuration for automatic dependency updates
-
 version: 2
 updates:
   - package-ecosystem: "pip" # Specify package ecosystem (e.g., pip, npm, maven)
@@ -13,4 +12,4 @@ updates:
     open-pull-requests-limit: 10 # Limit the number of open pull requests
     ignore:
       - dependency-name: "example-package" # Specify dependencies to ignore, if any
-        versions: ["1.x"] # Ignore specific versions if needed
+        versions: ["==1.*"] # Ignore all patch versions of 1.x
