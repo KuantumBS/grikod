@@ -1,8 +1,9 @@
-from __future__ import annotations
+# _version.py
 
-__version__ = "1.0.80"
-__license__ = "Açık Kaynak: Open Source, MIT, Apache License 2.0"
-__description__ = "Grikod (Gri Kod, Gray Code, Grey Code)"
+__version__ = "1.0.9"
+__license__ = "MIT OR Apache-2.0"
+__description__ = "Binary to Gray code conversion package for efficient data encoding."
 __author__ = "Mehmet Keçeci"
 __url__ = "https://github.com/KuantumBS/grikod"
-__dependencies__ = ["python>=3.8"]
+__docs__ = "https://kuantumbs.github.io/grikod"  # Opsiyonel: Dokümantasyon linki
+__dependencies__ = ["python>=3.8"]  # Diğer bağımlılıkları da ekleyebilirsiniz
