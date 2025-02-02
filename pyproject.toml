@@ -9,11 +9,12 @@ license = {file = "LICENSE"}
 authors = [
   { name="Mehmet Keçeci", email="mkececi@yaani.com" },
 ]
-description = "İkili sayıları Gri Koda çevirir. Grikod (Gri Kod, Gray Code, Grey Code)"
+description = "Converts binary numbers to Gray Code. Grikod (Gray Code, Grey Code)"
 readme = "README.md"
 requires-python = ">=3.8"
-keywords = ["Gri Kod", "Encoding", "Binary", "Gray Code"]
-
+dependencies = [
+]
+keywords = ["Gri Kod", "Gray Code", "Binary", "Encoding"]
 classifiers = [
     "Programming Language :: Python :: 3",
     "Operating System :: OS Independent",
@@ -35,3 +36,6 @@ version_scheme = "post-release"  # Post-release sürüm şeması
 
 [project.urls]
 Homepage = "https://github.com/KuantumBS/grikod/"
+Documentation = "https://kuantumbs.github.io/grikod/"
+Repository = "https://github.com/KuantumBS/grikod/"
+Issues = "https://github.com/KuantumBS/grikod/issues"
