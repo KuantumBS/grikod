@@ -1,4 +1,4 @@
-{% set version = "1.0.80" %}
+{% set version = "1.0.9" %}
 
 package:
   name: grikod
