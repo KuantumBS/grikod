@@ -1,7 +1,7 @@
 # _version.py
 
 __version__ = "1.0.9"
-__license__ = "MIT OR Apache-2.0"
+__license__ = "MIT"
 __description__ = "Binary to Gray code conversion package for efficient data encoding."
 __author__ = "Mehmet Keçeci"
 __url__ = "https://github.com/KuantumBS/grikod"
