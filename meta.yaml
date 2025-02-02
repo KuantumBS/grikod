@@ -5,13 +5,11 @@ package:
   version: {{ version }}
 
 source:
-  path: src/grikod/  # Doğru kaynak dizinini belirtin
-  url: https://files.pythonhosted.org/packages/1f/ca/7e7cf69c185a6b5a58480ac131f25a13ee6ea562ae0676266a9e6e9b0ea4/grikod-1.0.80.tar.gz
-  sha256: 6594a62d3186107361c7c734257c4ecabc450b49ce2b2b3d0bb1b23c91bbdd08
+  path: src/grikod/  # Yerel kaynak kodunun dizinini belirtin
 
 build:
-  noarch: python  # Bu ayar, paketin tüm Python sürümlerinde çalışmasını sağlar # generic
-  script: python -m pip install --ignore-installed .  # veya başka bir kurulum komutu
+  noarch: python  # Platformdan bağımsız bir paket oluşturur
+  script: python -m pip install --ignore-installed .  # Kurulum komutu
   number: 0
 
 requirements:
@@ -33,3 +31,4 @@ about:
   dev_url: https://github.com/KuantumBS/grikod
   doc_url: https://github.com/KuantumBS/grikod
   doc_source_url: https://github.com/KuantumBS/grikod/blob/main/README.md
+  
