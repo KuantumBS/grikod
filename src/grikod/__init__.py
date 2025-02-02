@@ -2,23 +2,31 @@
 # Add necessary blank lines to satisfy E302 and E305
 
 from __future__ import annotations
+
 import importlib
 import warnings
+
 from . import grikod  # Import kept if referenced elsewhere
-importlib.reload(grikod) # Modülünüzün ana dosyasını burada yeniden yükler
+importlib.reload(grikod)  # Reloads the module's main file
 
 
-# Function with deprecation warning
 def eski_fonksiyon():
+    """
+    Deprecated function that will be removed in future versions.
+    Use alternative functions instead.
+    """
     warnings.warn(
-        "Bu fonksiyon gelecekte kaldırılacak. Lütfen alternatif bir fonksiyon kullanın. "
+        "Deprecated function that will be removed in future versions. Use alternative functions instead. Bu fonksiyon gelecekte kaldırılacak. Lütfen alternatif bir fonksiyon kullanın. "
         "Grikod Python 3.8-3.14 sürümlerinde sorunsuz çalışmalıdır.",
-        DeprecationWarning
+        DeprecationWarning,
+        stacklevel=2
     )
 
 
-# Call the function if needed during initialization
-eski_fonksiyon()
-
 # Define module version
-__version__ = "1.0.80"
+__version__ = "1.0.9"
+
+
+# Conditional execution for development
+if __name__ == "__main__":
+    eski_fonksiyon()
