@@ -1,16 +1,17 @@
 from setuptools import setup, find_packages
-import setuptools_scm
 
 setup(
-    name='grikod',
-    use_scm_version = True,  # Bu satır version bilgisini setuptools_scm ile alır
-    requires = ["setuptools", "wheel", "setuptools_scm"],  # gerekli modüller
-    version='1.0.80',
+    name="grikod",
+    use_scm_version=True,  # Sürüm bilgisini setuptools_scm ile alır
+    setup_requires=["setuptools", "wheel", "setuptools_scm"],  # Gerekli kurulum bağımlılıkları
     packages=find_packages(where="src"),  # src dizinindeki modülleri bul
     package_dir={"": "src"},  # src dizinine yönlendirme
-    setup_requires=["setuptools", "wheel", "setuptools_scm"],
-    include_package_data=True,  # Gerektiğinde diğer dosyaları dahil et
+    include_package_data=True,  # Ek dosyaları dahil et
     install_requires=[
-        # Buraya bağımlılıkları ekleyin
+        # Projenizin bağımlılıklarını buraya ekleyin
     ],
+    author="Mehmet Keçeci",
+    description="Binary to Gray code conversion package for efficient data encoding.",
+    url="https://github.com/KuantumBS/grikod",
+    license="MIT",
 )
