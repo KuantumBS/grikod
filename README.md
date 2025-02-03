@@ -129,14 +129,27 @@ If this library was useful to you in your research, please cite us. Following th
     month = nov,
     title = {{Gri Kod}},
     url = {https://pypi.org/project/grikod/},
+    version = {1.1.0},
+    year = {2025}
+}
+```
+
+```bibtex
+@software{Kececi_Gri_Kod_2024,
+    author = {Keçeci, Mehmet},
+    license = {MIT},
+    month = nov,
+    title = {{Gri Kod}},
+    url = {https://pypi.org/project/grikod/},
     version = {1.0.80},
     year = {2024}
 }
-```
 
 ### APA
 
 ```
+Keçeci, M. (2025). Gri Kod: Grikod converts binary numbers to Gray Code. (Version 1.1.0) [Computer software]. https://pypi.org/project/grikod/
+
 Keçeci, M. (2024). Gri Kod: Grikod converts binary numbers to Gray Code. (Version 1.0.80) [Computer software]. https://pypi.org/project/grikod/
 ```
 
