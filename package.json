@@ -1,11 +1,9 @@
 {
-  "name": "grikod",
-  "version": "1.0.9",
-  "description": "Gri Kod: Grikod converts binary numbers to Gray Code.",
-  "main": "index.js",
-  "scripts": {
-    "start": "node index.js"
-  },
-  "author": "Mehmet Keçeci",
-  "license": "MIT"
+"name": "grikod",
+	"version": "1.0.9",
+	"description": "Write a package.json file",
+	"license": "MIT",
+	"author": {
+		"name": "Mehmet Keçeci",
+	},
 }
