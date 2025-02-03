@@ -181,7 +181,7 @@ Keçeci, Mehmet. “Grikod.” PYPI, February 18, 2024. https://doi.org/10.5281/
 ```
 
 
-## Lisans (Türkçe) / License (English)
+### Lisans (Türkçe) / License (English)
 
 This project is licensed under the MIT License.
 
