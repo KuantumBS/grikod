@@ -1,18 +1,18 @@
-def ikili_2_gri_kod(i2grik: str) -> str | None:
+class InvalidBinaryError(Exception):
+    pass
+
+def ikili_2_gri_kod(i2grik: str) -> str:
     """Converts a binary string to its corresponding Gray Code."""
+    if len(i2grik) > 64:
+        raise InvalidBinaryError("Error: Binary number is too long (max 64 bits).")
+    
     try:
-        # Convert binary string to integer
         i2grikod = int(i2grik, 2)
     except ValueError:
-        # Return an error message if input is not a valid binary string
-        return "Error: Please enter a valid binary number."
+        raise InvalidBinaryError("Error: Please enter a valid binary number.")
     
-    # Apply Gray Code transformation
     i2grikod ^= (i2grikod >> 1)
-    
-    # Return the result as a binary string with preserved length
     return bin(i2grikod)[2:].zfill(len(i2grik))
-
 
 # Main program loop
 while True:
@@ -21,7 +21,9 @@ while True:
         print("Exiting...")
         break
     
-    gri_kod = ikili_2_gri_kod(i2grik)
-    if gri_kod is not None:
+    try:
+        gri_kod = ikili_2_gri_kod(i2grik)
         print("Gray Code number:", gri_kod)
+    except InvalidBinaryError as e:
+        print(e)
         
