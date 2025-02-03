@@ -101,10 +101,15 @@ grikod.__version__
 
 ### Development
 ```bash
-Terminal
+# Clone the repository
 git clone https://github.com/KuantumBS/grikod.git
 cd grikod
+
+# Install in development mode
 python -m pip install -ve . # Install package in development mode
+
+# Run tests
+pytest
 
 Notebook, Jupyterlab, Colab, Visual Studio Code
 !python -m pip install git+https://github.com/KuantumBS/grikod.git
