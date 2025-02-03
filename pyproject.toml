@@ -34,6 +34,10 @@ classifiers = [
 version_file = "src/grikod/_version.py"  # Sürüm bilgisinin bulunduğu dosya
 version_scheme = "post-release"  # Post-release sürüm şeması
 
+[tool.poetry.dependencies]
+sphinx = ">=5.0"
+sphinx-rtd-theme = ">=1.2"
+
 [project.urls]
 Homepage = "https://github.com/KuantumBS/grikod/"
 Documentation = "https://kuantumbs.github.io/grikod/"
