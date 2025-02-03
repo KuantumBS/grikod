@@ -1,3 +1,11 @@
 {
-"name": "gri"
+  "name": "grikod",
+  "version": "1.0.9",
+  "description": "Gri Kod: Grikod converts binary numbers to Gray Code.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Mehmet",
+  "license": "MIT"
 }
