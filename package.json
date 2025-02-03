@@ -1,7 +1,7 @@
 {
 "name": "grikod",
 	"version": "1.0.9",
-	"description": "Write a package.json file",
+	"description": "grikod",
 	"license": "MIT",
 	"author": {
 		"name": "Mehmet Keçeci",
