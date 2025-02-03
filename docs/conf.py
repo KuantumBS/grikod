@@ -4,8 +4,9 @@ author = 'Mehmet Keçeci'
 copyright = '2024, Mehmet Keçeci'
 
 # Version Management
-from setuptools_scm import get_version
-version = get_version(root='..', relative_to=__file__)
+# from setuptools_scm import get_version
+# version = get_version(root='..', relative_to=__file__)
+version = '1.0.9'  # Replace with your actual version number
 release = version
 
 # General Configuration
