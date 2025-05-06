@@ -5,6 +5,7 @@
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FKuantumBS%2Fgrikod.svg?type=small)](https://app.fossa.com/projects/git%2Bgithub.com%2FKuantumBS%2Fgrikod?ref=badge_small)
 [![Documentation Status](https://readthedocs.org/projects/grikod/badge/?version=main)](https://grikod.readthedocs.io/en/main/?badge=main)
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15351842.svg)](https://doi.org/10.5281/zenodo.15351842)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14148764.svg)](https://doi.org/10.5281/zenodo.14148764)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14148764.svg)](https://doi.org/10.5281/zenodo.14148764)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14147520.svg)](https://doi.org/10.5281/zenodo.14147520)
@@ -126,6 +127,20 @@ If this library was useful to you in your research, please cite us. Following th
 ### BibTeX
 
 ```bibtex
+@software{kececi_2025_15351842,
+  author       = {Keçeci, Mehmet},
+  title        = {Grikod},
+  month        = may,
+  year         = 2025,
+  publisher    = {GitHub, PYPI (Python Package Index, Python
+                   Software Foundation), Anaconda, Zenodo
+                  },
+  doi          = {10.5281/zenodo.15351842},
+  url          = {https://doi.org/10.5281/zenodo.15351842},
+}
+```
+
+```bibtex
 @software{Kececi_Gri_Kod_2024,
     author = {Keçeci, Mehmet},
     license = {MIT},
@@ -151,6 +166,8 @@ If this library was useful to you in your research, please cite us. Following th
 ### APA
 
 ```
+Keçeci, M. (2025). Grikod. GitHub, PYPI (Python Package Index, Python Software Foundation), Anaconda, Zenodo. https://doi.org/10.5281/zenodo.15351842
+
 Keçeci, M. (2025). Gri Kod: Grikod converts binary numbers to Gray Code. (Version 1.1.0) [Computer software]. https://pypi.org/project/grikod/
 
 Keçeci, M. (2024). Gri Kod: Grikod converts binary numbers to Gray Code. (Version 1.0.80) [Computer software]. https://pypi.org/project/grikod/
@@ -159,6 +176,8 @@ Keçeci, M. (2024). Gri Kod: Grikod converts binary numbers to Gray Code. (Versi
 ### Chicago
 
 ```
+Keçeci, Mehmet. “Grikod”. GitHub, PYPI (Python Package Index, Python Software Foundation), Anaconda, Zenodo, 06 Mayıs 2025. https://doi.org/10.5281/zenodo.15351842.
+
 Keçeci, Mehmet. “Grikod”. PYPI, Python Package Index, Python Software Foundation, Anaconda, 03 Şubat 2025. https://doi.org/10.5281/zenodo.14793874.
 
 Keçeci, Mehmet. “Grikod”. Anaconda, Inc., November 13, 2024. https://doi.org/10.5281/zenodo.14148764.
