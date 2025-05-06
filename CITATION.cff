@@ -29,10 +29,10 @@ abstract: >-
   applications.
 keywords:
   - Gri Kod
-  - Encoding
+  - Grikod
   - Binary
   - Gray Code
 license: MIT
 commit: 'Revision: 9'
-version: 1.1.0
+version: 1.1.1
 date-released: '2024-11-12'
