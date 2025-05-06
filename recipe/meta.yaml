@@ -1,4 +1,4 @@
-{% set version = "1.1.0" %}
+{% set version = "1.1.1" %}
 
 package:
   name: grikod
@@ -6,12 +6,12 @@ package:
 
 source:
   path: src/grikod/  # Yerel kaynak kodunun dizinini belirtin
-  url: https://files.pythonhosted.org/packages/7c/d8/113169e562cf212f3fc63d3bdd7bc1511af017e67dd098a3d82d49bc98f1/grikod-1.1.0.tar.gz
-  sha256: 03969d4aa0c157c4e37c0fd19daf6eedc3cfbb90037451f9561850817ac25950
+  url: 
+  sha256: 
 
 build:
   noarch: python  # Platformdan bağımsız bir paket oluşturur
-  script: python -m pip install --ignore-installed .  # Kurulum komutu
+  script: python -m pip install --ignore-installed .
   number: 0
 
 requirements:
