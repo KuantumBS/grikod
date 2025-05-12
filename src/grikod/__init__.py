@@ -7,8 +7,8 @@ from __future__ import annotations  # Gelecekteki özellikler için (Python 3.7+
 import importlib
 import warnings
 import os
-if os.getenv("DEVELOPMENT") == "true":
-    importlib.reload(grikod)
+#if os.getenv("DEVELOPMENT") == "true":
+    #importlib.reload(grikod)
 
 
 # Göreli modül içe aktarmaları
@@ -37,7 +37,7 @@ def eski_fonksiyon():
 
 
 # Paket sürüm numarası
-__version__ = "1.1.1"
+__version__ = "1.1.2"
 
 
 # Geliştirme sırasında test etmek için
