@@ -7,30 +7,19 @@ on:
 jobs:
   publish-to-zenodo:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Create release archive
+      - name: Create ZIP Archive
         run: |
-          mkdir -p release-artifact
-          cp -r ./* release-artifact/
-          cd release-artifact
-          zip -r ../release.zip *
+          zip -r grikod-source.zip ./*
 
       - name: Upload to Zenodo
-        uses: nasa/gh-action-upload-zenodo-release@main
+        uses: yfukai/zenodo-publish-action@v1.3.0
         with:
-          zenodo_token: ${{ secrets.ZENODO_TOKEN }}
-          dir: .
-          metadata: |
-            {
-              "title": "Grikod",
-              "upload_type": "software",
-              "description": "A Python library for converting binary numbers to Gray Code with ease.",
-              "creators": [
-                {"name": "Keçeci, Mehmet", "orcid": "0000-0001-9937-9839"}
-              ],
-              "access_right": "open",
-              "license": "mit-license"
-            }
+          access_token: ${{ secrets.ZENODO_TOKEN }}
+          metadata_file: .zenodo.json
+          filename: grikod-source.zip
