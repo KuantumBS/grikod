@@ -5,8 +5,8 @@
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FKuantumBS%2Fgrikod.svg?type=small)](https://app.fossa.com/projects/git%2Bgithub.com%2FKuantumBS%2Fgrikod?ref=badge_small)
 [![Documentation Status](https://readthedocs.org/projects/grikod/badge/?version=main)](https://grikod.readthedocs.io/en/main/?badge=main)
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15351842.svg)](https://doi.org/10.5281/zenodo.15351842)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14148764.svg)](https://doi.org/10.5281/zenodo.14148764)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15351842.svg)](https://doi.org/10.5281/zenodo.12731345)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14148764.svg)](https://doi.org/10.5281/zenodo.15351842)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14148764.svg)](https://doi.org/10.5281/zenodo.14148764)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14147520.svg)](https://doi.org/10.5281/zenodo.14147520)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.12731346.svg)](https://doi.org/10.5281/zenodo.12731346)
@@ -166,7 +166,7 @@ If this library was useful to you in your research, please cite us. Following th
 ### APA
 
 ```
-Keçeci, M. (2025). Grikod. GitHub, PYPI (Python Package Index, Python Software Foundation), Anaconda, Zenodo. https://doi.org/10.5281/zenodo.15351842
+Keçeci, M. (2025). Grikod. GitHub, PYPI (Python Package Index, Python Software Foundation), Anaconda, Zenodo. https://doi.org/10.5281/zenodo.12731345
 
 Keçeci, M. (2025). Gri Kod: Grikod converts binary numbers to Gray Code. (Version 1.1.0) [Computer software]. https://pypi.org/project/grikod/
 
@@ -176,27 +176,27 @@ Keçeci, M. (2024). Gri Kod: Grikod converts binary numbers to Gray Code. (Versi
 ### Chicago
 
 ```
-Keçeci, Mehmet. “Grikod”. GitHub, PYPI (Python Package Index, Python Software Foundation), Anaconda, Zenodo, 06 Mayıs 2025. https://doi.org/10.5281/zenodo.15351842.
+Keçeci, Mehmet. "Grikod". GitHub, PYPI (Python Package Index, Python Software Foundation), Anaconda, Zenodo, 06 Mayıs 2025. https://doi.org/10.5281/zenodo.12731345.
 
-Keçeci, Mehmet. “Grikod”. PYPI, Python Package Index, Python Software Foundation, Anaconda, 03 Şubat 2025. https://doi.org/10.5281/zenodo.14793874.
+Keçeci, Mehmet. "Grikod”. PYPI, Python Package Index, Python Software Foundation, Anaconda, 03 Şubat 2025. https://doi.org/10.5281/zenodo.14793874.
 
-Keçeci, Mehmet. “Grikod”. Anaconda, Inc., November 13, 2024. https://doi.org/10.5281/zenodo.14148764.
+Keçeci, Mehmet. "Grikod". Anaconda, Inc., November 13, 2024. https://doi.org/10.5281/zenodo.14148764.
 
-Keçeci, Mehmet. “Grikod”. PYPI, Python Package Index, Python Software Foundation, November 13, 2024. https://doi.org/10.5281/zenodo.14147520.
+Keçeci, Mehmet. "Grikod". PYPI, Python Package Index, Python Software Foundation, November 13, 2024. https://doi.org/10.5281/zenodo.14147520.
 
-Keçeci, Mehmet. “Grikod”. Anaconda, Inc., November 12, 2024. https://doi.org/10.5281/zenodo.14099659.
+Keçeci, Mehmet. "Grikod". Anaconda, Inc., November 12, 2024. https://doi.org/10.5281/zenodo.14099659.
 
-Keçeci, Mehmet. “Grikod”. PYPI, Python Package Index, Python Software Foundation, November 12, 2024. https://doi.org/10.5281/zenodo.14099425.
+Keçeci, Mehmet. "Grikod". PYPI, Python Package Index, Python Software Foundation, November 12, 2024. https://doi.org/10.5281/zenodo.14099425.
 
-Keçeci, Mehmet. “Grikod”. Anaconda, Inc., November 01, 2024. https://zenodo.org/records/14029276.
+Keçeci, Mehmet. "Grikod". Anaconda, Inc., November 01, 2024. https://zenodo.org/records/14029276.
 
-Keçeci, Mehmet. “Grikod”. Python Package Index, November 01, 2024. https://zenodo.org/records/14029245.
+Keçeci, Mehmet. "Grikod". Python Package Index, November 01, 2024. https://zenodo.org/records/14029245.
 
-Keçeci, Mehmet. “Grikod”. Python Package Index, October 29, 2024. https://doi.org/10.5281/zenodo.14004878.
+Keçeci, Mehmet. "Grikod”. Python Package Index, October 29, 2024. https://doi.org/10.5281/zenodo.14004878.
 
-Keçeci, Mehmet. “Grikod”. Anaconda, Inc., October 29, 2024. https://doi.org/10.5281/zenodo.14004846.
+Keçeci, Mehmet. "Grikod". Anaconda, Inc., October 29, 2024. https://doi.org/10.5281/zenodo.14004846.
 
-Keçeci, Mehmet. “Grikod.” PYPI, February 18, 2024. https://doi.org/10.5281/zenodo.12731346.
+Keçeci, Mehmet. "Grikod". PYPI, February 18, 2024. https://doi.org/10.5281/zenodo.12731346.
 ```
 
 
