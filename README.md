@@ -166,6 +166,8 @@ If this library was useful to you in your research, please cite us. Following th
 ### APA
 
 ```
+Keçeci, M. (2025). Grikod.  WorkflowHub. https://doi.org/10.48546/workflowhub.datafile.12.1
+
 Keçeci, M. (2025). Grikod. GitHub, PYPI (Python Package Index, Python Software Foundation), Anaconda, Zenodo. https://doi.org/10.5281/zenodo.12731345
 
 Keçeci, M. (2025). Gri Kod: Grikod converts binary numbers to Gray Code. (Version 1.1.0) [Computer software]. https://pypi.org/project/grikod/
@@ -176,6 +178,8 @@ Keçeci, M. (2024). Gri Kod: Grikod converts binary numbers to Gray Code. (Versi
 ### Chicago
 
 ```
+Keçeci, Mehmet. "Grikod".  WorkflowHub, 2025. https://doi.org/10.48546/workflowhub.datafile.12.1
+
 Keçeci, Mehmet. "Grikod". GitHub, PYPI (Python Package Index, Python Software Foundation), Anaconda, Zenodo, 06 Mayıs 2025. https://doi.org/10.5281/zenodo.12731345.
 
 Keçeci, Mehmet. "Grikod”. PYPI, Python Package Index, Python Software Foundation, Anaconda, 03 Şubat 2025. https://doi.org/10.5281/zenodo.14793874.
