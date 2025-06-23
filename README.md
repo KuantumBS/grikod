@@ -15,6 +15,8 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14099425.svg)](https://doi.org/10.5281/zenodo.14099425)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14099659.svg)](https://doi.org/10.5281/zenodo.14099659)
 
+[![WorkflowHub DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14099659.svg)](https://doi.org/10.48546/workflowhub.datafile.12.1)
+
 [![Anaconda-Server Badge](https://anaconda.org/bilgi/grikod/badges/version.svg)](https://anaconda.org/bilgi/grikod)
 [![Anaconda-Server Badge](https://anaconda.org/bilgi/grikod/badges/latest_release_date.svg)](https://anaconda.org/bilgi/grikod)
 [![Anaconda-Server Badge](https://anaconda.org/bilgi/grikod/badges/platforms.svg)](https://anaconda.org/bilgi/grikod)
@@ -166,7 +168,7 @@ If this library was useful to you in your research, please cite us. Following th
 ### APA
 
 ```
-Keçeci, M. (2025). Grikod.  WorkflowHub. https://doi.org/10.48546/workflowhub.datafile.12.1
+Keçeci, M. (2025). Grikod [Data set].  WorkflowHub. https://doi.org/10.48546/workflowhub.datafile.12.1
 
 Keçeci, M. (2025). Grikod. GitHub, PYPI (Python Package Index, Python Software Foundation), Anaconda, Zenodo. https://doi.org/10.5281/zenodo.12731345
 
@@ -178,7 +180,7 @@ Keçeci, M. (2024). Gri Kod: Grikod converts binary numbers to Gray Code. (Versi
 ### Chicago
 
 ```
-Keçeci, Mehmet. "Grikod".  WorkflowHub, 2025. https://doi.org/10.48546/workflowhub.datafile.12.1
+Keçeci, Mehmet. "Grikod" [Data set].  WorkflowHub, 2025. https://doi.org/10.48546/workflowhub.datafile.12.1
 
 Keçeci, Mehmet. "Grikod". GitHub, PYPI (Python Package Index, Python Software Foundation), Anaconda, Zenodo, 06 Mayıs 2025. https://doi.org/10.5281/zenodo.12731345.
 
