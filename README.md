@@ -15,7 +15,7 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14099425.svg)](https://doi.org/10.5281/zenodo.14099425)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14099659.svg)](https://doi.org/10.5281/zenodo.14099659)
 
-[![WorkflowHub DOI](WorkflowHub DOI)](https://doi.org/10.48546/workflowhub.datafile.12.1)
+[![WorkflowHub DOI]()](https://doi.org/10.48546/workflowhub.datafile.12.1)
 
 [![Anaconda-Server Badge](https://anaconda.org/bilgi/grikod/badges/version.svg)](https://anaconda.org/bilgi/grikod)
 [![Anaconda-Server Badge](https://anaconda.org/bilgi/grikod/badges/latest_release_date.svg)](https://anaconda.org/bilgi/grikod)
