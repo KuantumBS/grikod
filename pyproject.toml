@@ -14,7 +14,7 @@ readme = "README.md"
 requires-python = ">=3.9"
 dependencies = [
 ]
-keywords = ["Gri Kod", "Gray Code", "Binary", "Encoding"]
+keywords = ["Gri Kod", "GriKod", "Gray Code", "Binary", "Encoding"]
 classifiers = [
     "Programming Language :: Python :: 3",
     "Operating System :: OS Independent",
