@@ -6,14 +6,6 @@
 [![Documentation Status](https://readthedocs.org/projects/grikod/badge/?version=main)](https://grikod.readthedocs.io/en/main/?badge=main)
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.12731345.svg)](https://doi.org/10.5281/zenodo.12731345)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15351842.svg)](https://doi.org/10.5281/zenodo.15351842)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14148764.svg)](https://doi.org/10.5281/zenodo.14148764)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14147520.svg)](https://doi.org/10.5281/zenodo.14147520)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.12731346.svg)](https://doi.org/10.5281/zenodo.12731346)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14029245.svg)](https://doi.org/10.5281/zenodo.14029245)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14029276.svg)](https://doi.org/10.5281/zenodo.14029276)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14099425.svg)](https://doi.org/10.5281/zenodo.14099425)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14099659.svg)](https://doi.org/10.5281/zenodo.14099659)
 
 [![WorkflowHub DOI](https://img.shields.io/badge/DOI-10.48546%2Fworkflowhub.datafile.12.1-blue)](https://doi.org/10.48546/workflowhub.datafile.12.1)
 
