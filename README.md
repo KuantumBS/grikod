@@ -8,6 +8,7 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.12731345.svg)](https://doi.org/10.5281/zenodo.12731345)
 
 [![WorkflowHub DOI](https://img.shields.io/badge/DOI-10.48546%2Fworkflowhub.datafile.12.1-blue)](https://doi.org/10.48546/workflowhub.datafile.12.1)
+[![WorkflowHub DOI](https://img.shields.io/badge/DOI-10.48546%2Fworkflowhub.datafile.12.2-blue)](https://doi.org/10.48546/workflowhub.datafile.12.2)
 
 [![Anaconda-Server Badge](https://anaconda.org/bilgi/grikod/badges/version.svg)](https://anaconda.org/bilgi/grikod)
 [![Anaconda-Server Badge](https://anaconda.org/bilgi/grikod/badges/latest_release_date.svg)](https://anaconda.org/bilgi/grikod)
@@ -160,6 +161,8 @@ If this library was useful to you in your research, please cite us. Following th
 ### APA
 
 ```
+Keçeci, M. (2025). Grikod [Data set].  WorkflowHub. https://doi.org/10.48546/workflowhub.datafile.12.2
+
 Keçeci, M. (2025). Grikod [Data set].  WorkflowHub. https://doi.org/10.48546/workflowhub.datafile.12.1
 
 Keçeci, M. (2025). Grikod. Zenodo. https://doi.org/10.5281/zenodo.12731345
@@ -169,6 +172,8 @@ Keçeci, M. (2025). Grikod. Zenodo. https://doi.org/10.5281/zenodo.12731345
 ### Chicago
 
 ```
+Keçeci, Mehmet. "Grikod" [Data set].  WorkflowHub, 2025. https://doi.org/10.48546/workflowhub.datafile.12.2
+
 Keçeci, Mehmet. "Grikod" [Data set].  WorkflowHub, 2025. https://doi.org/10.48546/workflowhub.datafile.12.1
 
 Keçeci, Mehmet. "Grikod". Zenodo, 06 Mayıs 2025. https://doi.org/10.5281/zenodo.12731345.
