@@ -121,7 +121,7 @@ If this library was useful to you in your research, please cite us. Following th
 ### BibTeX
 
 ```bibtex
-@software{kececi_2025_15351842,
+@software{kececi_2025_12731345,
   author       = {Keçeci, Mehmet},
   title        = {Grikod},
   month        = may,
@@ -129,8 +129,8 @@ If this library was useful to you in your research, please cite us. Following th
   publisher    = {GitHub, PYPI (Python Package Index, Python
                    Software Foundation), Anaconda, Zenodo
                   },
-  doi          = {10.5281/zenodo.15351842},
-  url          = {https://doi.org/10.5281/zenodo.15351842},
+  doi          = {10.5281/zenodo.12731345},
+  url          = {https://doi.org/10.5281/zenodo.12731345},
 }
 ```
 
@@ -162,11 +162,8 @@ If this library was useful to you in your research, please cite us. Following th
 ```
 Keçeci, M. (2025). Grikod [Data set].  WorkflowHub. https://doi.org/10.48546/workflowhub.datafile.12.1
 
-Keçeci, M. (2025). Grikod. GitHub, PYPI (Python Package Index, Python Software Foundation), Anaconda, Zenodo. https://doi.org/10.5281/zenodo.12731345
+Keçeci, M. (2025). Grikod. Zenodo. https://doi.org/10.5281/zenodo.12731345
 
-Keçeci, M. (2025). Gri Kod: Grikod converts binary numbers to Gray Code. (Version 1.1.0) [Computer software]. https://pypi.org/project/grikod/
-
-Keçeci, M. (2024). Gri Kod: Grikod converts binary numbers to Gray Code. (Version 1.0.80) [Computer software]. https://pypi.org/project/grikod/
 ```
 
 ### Chicago
@@ -174,27 +171,8 @@ Keçeci, M. (2024). Gri Kod: Grikod converts binary numbers to Gray Code. (Versi
 ```
 Keçeci, Mehmet. "Grikod" [Data set].  WorkflowHub, 2025. https://doi.org/10.48546/workflowhub.datafile.12.1
 
-Keçeci, Mehmet. "Grikod". GitHub, PYPI (Python Package Index, Python Software Foundation), Anaconda, Zenodo, 06 Mayıs 2025. https://doi.org/10.5281/zenodo.12731345.
+Keçeci, Mehmet. "Grikod". Zenodo, 06 Mayıs 2025. https://doi.org/10.5281/zenodo.12731345.
 
-Keçeci, Mehmet. "Grikod”. PYPI, Python Package Index, Python Software Foundation, Anaconda, 03 Şubat 2025. https://doi.org/10.5281/zenodo.14793874.
-
-Keçeci, Mehmet. "Grikod". Anaconda, Inc., November 13, 2024. https://doi.org/10.5281/zenodo.14148764.
-
-Keçeci, Mehmet. "Grikod". PYPI, Python Package Index, Python Software Foundation, November 13, 2024. https://doi.org/10.5281/zenodo.14147520.
-
-Keçeci, Mehmet. "Grikod". Anaconda, Inc., November 12, 2024. https://doi.org/10.5281/zenodo.14099659.
-
-Keçeci, Mehmet. "Grikod". PYPI, Python Package Index, Python Software Foundation, November 12, 2024. https://doi.org/10.5281/zenodo.14099425.
-
-Keçeci, Mehmet. "Grikod". Anaconda, Inc., November 01, 2024. https://zenodo.org/records/14029276.
-
-Keçeci, Mehmet. "Grikod". Python Package Index, November 01, 2024. https://zenodo.org/records/14029245.
-
-Keçeci, Mehmet. "Grikod”. Python Package Index, October 29, 2024. https://doi.org/10.5281/zenodo.14004878.
-
-Keçeci, Mehmet. "Grikod". Anaconda, Inc., October 29, 2024. https://doi.org/10.5281/zenodo.14004846.
-
-Keçeci, Mehmet. "Grikod". PYPI, February 18, 2024. https://doi.org/10.5281/zenodo.12731346.
 ```
 
 
