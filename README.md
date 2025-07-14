@@ -18,11 +18,11 @@
 [![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 [![Python CI](https://github.com/KuantumBS/grikod/blob/main/.github/workflows/python_ci.yml/badge.svg?branch=main)](https://github.com/KuantumBS/grikod/blob/main/.github/workflows/python_ci.yml)
-[![codecov](https://codecov.io/gh/alexdaniel654/qlayers/graph/badge.svg?token=06FRSZ02SJ)](https://codecov.io/gh/-)
-[![Documentation Status](https://readthedocs.org/projects/-/badge/?version=latest)](https://-.readthedocs.io/latest/)
-[![Binder](https://terrarium.evidencepub.io/badge_logo.svg)](https://terrarium.evidencepub.io/v2/gh/-/HEAD)
-[![PyPI version](https://badge.fury.io/py/-.svg)](https://badge.fury.io/py/-)
-[![Downloads](https://static.pepy.tech/badge/-)](https://pepy.tech/project/-)
+[![codecov](https://codecov.io/gh/KuantumBS/grikod/graph/badge.svg?token=06FRSZ02SJ)](https://codecov.io/gh/-)
+[![Documentation Status](https://readthedocs.org/projects/grikod/badge/?version=latest)](https://grikod.readthedocs.io/latest/)
+[![Binder](https://terrarium.evidencepub.io/badge_logo.svg)](https://terrarium.evidencepub.io/v2/gh/KuantumBS/grikod/HEAD)
+[![PyPI version](https://badge.fury.io/py/grikod.svg)](https://badge.fury.io/py/grikod)
+[![Downloads](https://static.pepy.tech/badge/grikod)](https://pepy.tech/project/grikod)
 
 
 
