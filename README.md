@@ -24,7 +24,7 @@
 [![PyPI version](https://badge.fury.io/py/grikod.svg)](https://badge.fury.io/py/grikod)
 [![PyPI Downloads](https://static.pepy.tech/badge/grikod)](https://pepy.tech/projects/grikod)
 
-
+---
 
 A Python library for converting binary numbers to Gray Code with ease.
 
