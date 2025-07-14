@@ -18,7 +18,7 @@
 [![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 [![Python CI](https://github.com/KuantumBS/grikod//actions/workflows/python_ci.yml/badge.svg?branch=main)](https://github.com/KuantumBS/grikod//actions/workflows/python_ci.yml)
-[![codecov](https://codecov.io/gh/KuantumBS/grikod/graph/badge.svg?token=06FRSZ02SJ)](https://codecov.io/gh/KuantumBS/grikod)
+[![codecov](https://codecov.io/gh/KuantumBS/grikod/graph/badge.svg?token=AQHUAMY4RJ)](https://codecov.io/gh/KuantumBS/grikod)
 [![Documentation Status](https://readthedocs.org/projects/grikod/badge/?version=latest)](https://grikod.readthedocs.io/en/latest/)
 [![Binder](https://terrarium.evidencepub.io/badge_logo.svg)](https://terrarium.evidencepub.io/v2/gh/KuantumBS/grikod/HEAD)
 [![PyPI version](https://badge.fury.io/py/grikod.svg)](https://badge.fury.io/py/grikod)
