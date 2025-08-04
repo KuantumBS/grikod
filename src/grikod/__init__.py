@@ -7,18 +7,28 @@ import importlib
 import os
 import warnings
 
+
 #if os.getenv("DEVELOPMENT") == "true":
     #importlib.reload(grikod)
+# Geliştirme modunda otomatik yeniden yükleme
+if os.getenv("DEVELOPMENT") == "true":
+    try:
+        import grikod.grikod
+        importlib.reload(grikod.grikod)
+    except (ImportError, KeyError):
+        pass  # İlk kez import ediliyorsa atla
 
 # Göreli modül içe aktarmaları
 # F401 hatasını önlemek için sadece kullanacağınız şeyleri dışa aktarın
 # Aksi halde linter'lar "imported but unused" uyarısı verir
+# Modül içeriğini yükle
 try:
     #from .grikod import *  # gerekirse burada belirli fonksiyonları seçmeli yapmak daha güvenlidir
     # from . import grikod  # Modülün kendisine doğrudan erişim isteniyorsa
-    from .grikod import ikili_2_gri_kod
+    from .grikod import ikili_2_gri_kod, main  # main fonksiyonunu da dışa aktar
 except ImportError as e:
     warnings.warn(f"Gerekli modül yüklenemedi: {e}", ImportWarning)
+
 
 # Eski bir fonksiyonun yer tutucusu - gelecekte kaldırılacak
 def eski_fonksiyon():
@@ -34,8 +44,10 @@ def eski_fonksiyon():
         stacklevel=2
     )
 
+__all__ = ["ikili_2_gri_kod", "main"]
+
 # Paket sürüm numarası
-__version__ = "1.1.5"
+__version__ = "1.1.6"
 
 # Geliştirme sırasında test etmek için
 if __name__ == "__main__":
