@@ -123,12 +123,16 @@ pip install git+https://github.com/KuantumBS/grikod.git
 ## Kullanım (Türkçe) / Usage (English)
 
 ```python
-import grikod # Restart Kernel veya/or Restart Kernel and Clear Outputs
-
-# veya/or
+# Restart Kernel veya/or Restart Kernel and Clear Outputs
 import importlib
 import grikod
-importlib.reload(grikod) # Modülünüzün ana dosyasını burada yeniden yükler
+
+# Önce alt modülü yeniden yükleyin
+import grikod.grikod  # gerekirse otomatik import edilir
+importlib.reload(grikod.grikod)  # grikod.py dosyasını yeniden çalıştır
+
+# Ardından paketi yeniden yükleyin (isteğe bağlı)
+importlib.reload(grikod)
 
 # Run this cell (Shift+Enter): Input: 100
 # Output example
