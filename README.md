@@ -242,9 +242,8 @@ If this library was useful to you in your research, please cite us. Following th
 ### APA
 
 ```
-Keçeci, M. (2025). Grikod [Data set].  WorkflowHub. https://doi.org/10.48546/workflowhub.datafile.12.2
 
-Keçeci, M. (2025). Grikod [Data set].  WorkflowHub. https://doi.org/10.48546/workflowhub.datafile.12.1
+Keçeci, M. (2025). Grikod [Data set].  WorkflowHub. https://doi.org/10.48546/workflowhub.datafile.12.1; https://doi.org/10.48546/workflowhub.datafile.12.2
 
 Keçeci, M. (2025). Grikod. Zenodo. https://doi.org/10.5281/zenodo.12731345
 
@@ -253,9 +252,8 @@ Keçeci, M. (2025). Grikod. Zenodo. https://doi.org/10.5281/zenodo.12731345
 ### Chicago
 
 ```
-Keçeci, Mehmet. "Grikod" [Data set].  WorkflowHub, 2025. https://doi.org/10.48546/workflowhub.datafile.12.2
 
-Keçeci, Mehmet. "Grikod" [Data set].  WorkflowHub, 2025. https://doi.org/10.48546/workflowhub.datafile.12.1
+Keçeci, Mehmet. "Grikod" [Data set].  WorkflowHub, 2025. https://doi.org/10.48546/workflowhub.datafile.12.1; https://doi.org/10.48546/workflowhub.datafile.12.2
 
 Keçeci, Mehmet. "Grikod". Zenodo, 06 Mayıs 2025. https://doi.org/10.5281/zenodo.12731345.
 
@@ -269,7 +267,4 @@ This project is licensed under the MIT License.
 ```
 ```
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FKuantumBS%2Fgrikod.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FKuantumBS%2Fgrikod?ref=badge_large)
-```
-```
-[Grikod YouTube Video Linki](https://www.youtube.com/watch?v=IJnIpOuV92E)
 ```
