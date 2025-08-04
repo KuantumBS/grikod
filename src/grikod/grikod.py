@@ -26,4 +26,3 @@ while True:
         print("Gray Code number:", gri_kod)
     except InvalidBinaryError as e:
         print(e)
-        
