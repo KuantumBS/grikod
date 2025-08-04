@@ -23,7 +23,7 @@
 [![Binder](https://terrarium.evidencepub.io/badge_logo.svg)](https://terrarium.evidencepub.io/v2/gh/KuantumBS/grikod/HEAD)
 [![PyPI version](https://badge.fury.io/py/grikod.svg)](https://badge.fury.io/py/grikod)
 [![PyPI Downloads](https://static.pepy.tech/badge/grikod)](https://pepy.tech/projects/grikod)
-[![Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/KuantumBS/grikod)
+[![Linted with Ruff](https://img.shields.io/badge/Linted%20with-Ruff-green?logo=python&logoColor=white)](https://github.com/astral-sh/ruff)
 
 ---
 
