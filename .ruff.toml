@@ -1,0 +1,4 @@
+[tool.ruff]
+select = ["E", "W", "F"]  # Hatalar, uyarılar, isimlendirme
+ignore = ["E501"]         # Satır uzunluğu uyarısı kapatıldı
+line-length = 88
