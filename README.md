@@ -117,7 +117,7 @@ pip install git+https://github.com/KuantumBS/grikod.git
 # or
 %pip install git+https://github.com/KuantumBS/grikod.git
 ```
-'1111'
+
 ---
 
 ## Kullanım (Türkçe) / Usage (English)
@@ -127,6 +127,7 @@ pip install git+https://github.com/KuantumBS/grikod.git
 import grikod
 grikod.ikili_2_gri_kod("1010")
 
+'1111'
 ```
 
 ```python
@@ -167,13 +168,14 @@ import grikod
 
 importlib.reload(grikod)  # Modülü yeniden yükle
 grikod.main()  # Şimdi çalışmalı
-```
+
 Enter a binary number (or 'q' to quit):  100
 Gray Code number: 110
 Enter a binary number (or 'q' to quit):  111
 Gray Code number: 100
 Enter a binary number (or 'q' to quit):  q
 Exiting...
+```
 
 ---
 
