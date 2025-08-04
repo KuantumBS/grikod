@@ -35,7 +35,7 @@ def eski_fonksiyon():
     )
 
 # Paket sürüm numarası
-__version__ = "1.1.4"
+__version__ = "1.1.5"
 
 # Geliştirme sırasında test etmek için
 if __name__ == "__main__":
