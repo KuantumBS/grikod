@@ -149,6 +149,25 @@ importlib.reload(grikod)
 import grikod
 grikod.__version__
 ```
+```python
+import grikod
+grikod.main()  # CLI'ı başlat
+```
+or
+```python
+import importlib
+import grikod
+
+importlib.reload(grikod)  # Modülü yeniden yükle
+grikod.main()  # Şimdi çalışmalı
+```
+Enter a binary number (or 'q' to quit):  100
+Gray Code number: 110
+Enter a binary number (or 'q' to quit):  111
+Gray Code number: 100
+Enter a binary number (or 'q' to quit):  q
+Exiting...
+
 ---
 
 ### Development
