@@ -117,10 +117,17 @@ pip install git+https://github.com/KuantumBS/grikod.git
 # or
 %pip install git+https://github.com/KuantumBS/grikod.git
 ```
-
+'1111'
 ---
 
 ## Kullanım (Türkçe) / Usage (English)
+---
+
+```python
+import grikod
+grikod.ikili_2_gri_kod("1010")
+
+```
 
 ```python
 # Restart Kernel veya/or Restart Kernel and Clear Outputs
