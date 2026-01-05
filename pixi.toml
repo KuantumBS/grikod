@@ -1,0 +1,80 @@
+# pixi.toml - grikod için
+[project]
+name = "grikod"
+version = "1.1.6"
+description = "Converts binary numbers to Gray Code. Grikod (Gray Code, Grey Code)"
+channels = ["conda-forge", "defaults"]
+authors = [{name = "Mehmet Keçeci", email = "mkececi@yaani.com"}]
+license = "MIT"
+keywords = ["Gri Kod", "Grikod", "Gray Code", "Binary", "Encoding"]
+
+[project.optional-dependencies]
+dev = [
+  "pytest >=7.0",
+  "pytest-cov >=4.0",
+  "ruff >=0.4",
+  "mypy >=1.5",
+  "black >=24.0",
+  "sphinx >=7.0",
+  "sphinx-rtd-theme >=2.0",
+]
+
+docs = [
+  "sphinx >=7.0",
+  "sphinx-rtd-theme >=2.0",
+  "sphinx-autodoc-typehints >=1.23",
+]
+
+[tool.pixi]
+python = "39"  # >=3.9
+
+[dependencies]
+python = {version = ">=3.9"}
+
+[dependencies.dev-tools]
+pytest = ">=7.0"
+pytest-cov = ">=4.0"
+ruff = ">=0.4.8"
+mypy = ">=1.5"
+black = ">=24.0"
+sphinx = ">=7.0"
+sphinx-rtd-theme = ">=2.0"
+sphinx-autodoc-typehints = ">=1.23"
+
+[feature.docs]
+dependencies = [
+  "sphinx >=7.0",
+  "sphinx-rtd-theme >=2.0",
+  "sphinx-autodoc-typehints >=1.23",
+]
+
+[feature.test]
+dependencies = [
+  "pytest >=7.0",
+  "pytest-cov >=4.0",
+  "mypy >=1.5",
+  "ruff >=0.4",
+]
+
+[feature.lint]
+dependencies = [
+  "ruff >=0.4",
+  "black >=24.0",
+  "mypy >=1.5",
+]
+
+[tasks]
+sync = "pixi sync"
+test = "pixi run pytest tests/ -v --cov=grikod --cov-report=html"
+lint = "pixi run ruff check . && pixi run black --check ."
+format = "pixi run black . && pixi run ruff check --fix ."
+typecheck = "pixi run mypy src/grikod"
+docs = "pixi run sphinx-build -b html docs/ docs/_build/html"
+build = "pixi run python -m build"
+publish-test = "pixi run twine upload --repository testpypi dist/*"
+publish = "pixi run twine upload dist/*"
+
+[environments]
+default = ["test"]
+docs = ["docs"]
+lint = ["lint"]
