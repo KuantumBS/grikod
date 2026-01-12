@@ -275,7 +275,9 @@ This project is licensed under the MIT License.
 
 # Pixi:
 
+
 [![Pixi](https://img.shields.io/badge/Pixi-Pixi-brightgreen.svg)](https://prefix.dev/channels/bilgi)
+
 
 pixi init try-grikod
 
