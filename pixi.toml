@@ -4,7 +4,7 @@ name = "grikod"
 version = "1.1.6"
 description = "Converts binary numbers to Gray Code. Grikod (Gray Code, Grey Code)"
 channels = ["conda-forge", "defaults"]
-authors = [{name = "Mehmet Keçeci", email = "mkececi@yaani.com"}]
+authors = [{name = "Mehmet Keçeci", email = "enfo@tuta.io"}]
 license = "MIT"
 keywords = ["Gri Kod", "Grikod", "Gray Code", "Binary", "Encoding"]
 
