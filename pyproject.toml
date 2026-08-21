@@ -7,11 +7,11 @@ name = "grikod"
 dynamic = ["version"]
 license = {file = "LICENSE"}
 authors = [
-  { name="Mehmet Keçeci", email="mkececi@yaani.com" },
+  { name="Mehmet Keçeci", email="enfo@tuta.io" },
 ]
 description = "Converts binary numbers to Gray Code. Grikod (Gray Code, Grey Code)"
 readme = "README.md"
-requires-python = ">=3.9"
+requires-python = ">=3.11"
 dependencies = [
 ]
 keywords = ["Gri Kod", "GriKod", "Gray Code", "Binary", "Encoding"]
