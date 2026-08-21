@@ -12,12 +12,12 @@ type: software
 authors:
   - given-names: Mehmet
     family-names: Keçeci
-    email: bilginomi@yaani.com
+    email: enfo@tuta.io
     orcid: 'https://orcid.org/0000-0001-9937-9839'
 identifiers:
   - type: doi
     value: 10.5281/zenodo.12731345
-- type: doi
+  - type: doi
     value: 10.48546/workflowhub.datafile.12.2
 repository-code: 'https://github.com/KuantumBS/grikod'
 url: 'https://github.com/KuantumBS/grikod'
