@@ -12,7 +12,7 @@ readme = "README.md"
 requires-python = ">=3.11"
 license = {text = "MIT"}
 authors = [{name = "Mehmet Keçeci", email = "enfo@tuta.io"}]
-keywords = ["gray", "code", "converter"]   # static olarak tanımlandı
+keywords = ["gray", "code", "converter"]
 classifiers = [
     "Programming Language :: Python :: 3",
     "Operating System :: OS Independent",
@@ -23,38 +23,20 @@ dependencies = [
     "numpy",
 ]
 
-[package.build-dependencies]
-setuptools = ">=84.0.0"
-cython = ">=3.0.0"
-compilers = "*"  # Linux ortamında Cython kodunu derlemek için GCC/Clang kurar
+# Aşağıdaki bölümleri SİLİN veya devre dışı bırakın (cibuildwheel manylinux için):
+# [tool.cibuildwheel] ...
 
-[tool.pixi.build-system]
-# uv'nin dışarıdan izole ortam kurmasını engeller, conda ortamını kullandırır
-installer = "uv"
-no-build-isolation = true
+# [tool.setuptools.packages.find]
+# include = ["grikod*"]
 
-[tool.pixi.package.build-dependencies]
-setuptools = ">=84.0.0"
-cython = ">=3.0.0"
-compilers = "*"
+# [tool.setuptools]
+# include-package-data = true
 
-[tool.cibuildwheel]
-build = "cp311-* cp312-* cp313-* cp314-* cp315-*"
-skip = "*-musllinux_*"
-archs = "auto64"
-build-verbosity = 3
-
-[tool.setuptools.packages.find]
-include = ["grikod*"]
-
-[tool.setuptools]
-include-package-data = true
-
-[tool.setuptools.package-data]
-"*" = ["*.py", "*.pyi", "*.pyd", "*.so"]
+# [tool.setuptools.package-data]
+# "*" = ["*.py", "*.pyx", "*.pyi", "*.pyd", "*.so"]  # .pyx ekleyin, kaynak derleme için
 
 [tool.setuptools_scm]
-version_file = "grikod/_version.py"  # Sürüm bilgisinin bulunduğu dosya
+version_file = "grikod/_version.py"
 local_scheme = "no-local-version"
 
 [project.urls]
