@@ -1,0 +1,52 @@
+# recipe.yaml
+
+schema_version: 1
+
+context:
+  version: 0.1.7
+  name: grikod
+
+package:
+  name: ${{ name }}
+  version: ${{ version }}
+
+source:
+  path: .
+  url: https://pypi.org{{ name }}/${{ name }}/${{ name }}-${{ version }}.tar.gz
+  sha256: 
+  
+build:
+  number: 1
+  script: python -m pip install --no-deps --no-build-isolation --ignore-installed .
+
+# 🌍 Paketinizin derleneceği tüm platformları buraya ekliyoruz:
+# (Linux, Windows, macOS Intel ve macOS Apple Silicon)
+build_platform:
+  - linux-64
+  - win-64
+  - osx-64
+  - osx-arm64
+
+requirements:
+  build:
+    - ${{ compiler('c') }} # İşletim sistemine göre doğru C derleyicisini (GCC, MSVC, Clang) otomatik seçer
+  host:
+    - python >=3.11
+    - pip
+    - setuptools >=84.0.0
+    - cython >=3.0.0
+    - wheel
+    - numpy
+  run:
+    - python >=3.11
+    - numpy
+
+about:
+  homepage: https://github.com/KuantumBS/grikod
+  license: MIT
+  summary: 'grikod'
+  repository: https://github.com/KuantumBS/grikod
+
+extra:
+  recipe-maintainers:
+    - bilgi
