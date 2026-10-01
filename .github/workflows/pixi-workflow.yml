@@ -1,14 +1,11 @@
 name: Pixi CI
 
 on:
-  push:
-    branches: [ main, dev ]
-  pull_request:
-    branches: [ main ]
+  workflow_dispatch:
 
 permissions:
+  id-token: write
   contents: read
-  pull-requests: write
 
 jobs:
   test-and-build:
