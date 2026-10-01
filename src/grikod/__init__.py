@@ -2,11 +2,13 @@
 # Bu dosya paketin başlangıç noktası olarak çalışır.
 # Alt modülleri yükler, sürüm bilgileri tanımlar ve geriye dönük uyumluluk için uyarılar sağlar.
 
-from __future__ import annotations  # Gelecekteki özellikler için (Python 3.7+)
+from __future__ import annotations  # Gelecekteki özellikler için (Python 3.11+)
 import importlib
 import os
 import warnings
 
+# Paket sürüm numarası
+__version__ = "1.1.7"
 
 #if os.getenv("DEVELOPMENT") == "true":
     #importlib.reload(grikod)
@@ -45,9 +47,6 @@ def eski_fonksiyon():
     )
 
 __all__ = ["ikili_2_gri_kod", "main"]
-
-# Paket sürüm numarası
-__version__ = "1.1.6"
 
 # Geliştirme sırasında test etmek için
 if __name__ == "__main__":
