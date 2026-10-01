@@ -8,7 +8,7 @@ import os
 import warnings
 
 # Paket sürüm numarası
-__version__ = "1.1.7"
+__version__ = "1.1.8"
 
 #if os.getenv("DEVELOPMENT") == "true":
     #importlib.reload(grikod)
