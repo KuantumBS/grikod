@@ -5,7 +5,7 @@ package:
   version: {{ version }}
 
 source:
-  path: src/grikod/  # Yerel kaynak kodunun dizinini belirtin
+  path: .  # Yerel kaynak kodunun dizinini belirtin
   url: 
   sha256: 
 
