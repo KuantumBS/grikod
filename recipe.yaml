@@ -3,7 +3,7 @@
 schema_version: 1
 
 context:
-  version: 0.1.7
+  version: 1.1.7
   name: grikod
 
 package:
