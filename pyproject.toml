@@ -54,7 +54,7 @@ include-package-data = true
 "*" = ["*.py", "*.pyi", "*.pyd", "*.so"]
 
 [tool.setuptools_scm]
-version_file = "src/grikod/_version.py"  # Sürüm bilgisinin bulunduğu dosya
+version_file = "grikod/_version.py"  # Sürüm bilgisinin bulunduğu dosya
 local_scheme = "no-local-version"
 
 [project.urls]
