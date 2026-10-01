@@ -1,34 +1,57 @@
+# pyproject.toml
+
 [build-system]
-requires = ["setuptools", "wheel", "setuptools_scm"]
+requires = ["setuptools>=84.0.0", "cython>=3.0.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
 name = "grikod"
-dynamic = ["version"]
-license = {file = "LICENSE"}
-authors = [
-  { name="Mehmet Keçeci", email="enfo@tuta.io" },
-]
-description = "Converts binary numbers to Gray Code. Grikod (Gray Code, Grey Code)"
+version = "1.1.7"
+description = "Binary to Gray code conversion package for efficient data encoding."
 readme = "README.md"
 requires-python = ">=3.11"
-dependencies = [
-]
-keywords = ["Gri Kod", "GriKod", "Gray Code", "Binary", "Encoding"]
+license = {text = "MIT"}
+authors = [{name = "Mehmet Keçeci", email = "enfo@tuta.io"}]
+keywords = ["gray", "code", "converter"]   # static olarak tanımlandı
 classifiers = [
     "Programming Language :: Python :: 3",
     "Operating System :: OS Independent",
-    "Topic :: Software Development",
-    "Topic :: Scientific/Engineering",
-    "Typing :: Typed",
-    "Operating System :: Microsoft :: Windows",
-    "Operating System :: POSIX",
-    "Operating System :: Unix",
-    "Operating System :: MacOS",
-    "License :: OSI Approved :: MIT License",
-    "Intended Audience :: Developers",
     "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Visualization",
 ]
+dependencies = [
+    "numpy",
+]
+
+[package.build-dependencies]
+setuptools = ">=84.0.0"
+cython = ">=3.0.0"
+compilers = "*"  # Linux ortamında Cython kodunu derlemek için GCC/Clang kurar
+
+[tool.pixi.build-system]
+# uv'nin dışarıdan izole ortam kurmasını engeller, conda ortamını kullandırır
+installer = "uv"
+no-build-isolation = true
+
+[tool.pixi.package.build-dependencies]
+setuptools = ">=84.0.0"
+cython = ">=3.0.0"
+compilers = "*"
+
+[tool.cibuildwheel]
+build = "cp311-* cp312-* cp313-* cp314-* cp315-*"
+skip = "*-musllinux_*"
+archs = "auto64"
+build-verbosity = 3
+
+[tool.setuptools.packages.find]
+include = ["grikod*"]
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.package-data]
+"*" = ["*.py", "*.pyi", "*.pyd", "*.so"]
 
 [tool.setuptools_scm]
 version_file = "src/grikod/_version.py"  # Sürüm bilgisinin bulunduğu dosya
