@@ -8,7 +8,7 @@ from Cython.Build import cythonize
 extensions = [
     Extension(
         name="grikod",          # Sabit kalmalı, import edilecek ad
-        #sources=["src/grikod.py"],  # Kaynak dosyanın yolu
+        sources=["grikod.py"],  # Kaynak dosyanın yolu
     )
 ]
 
