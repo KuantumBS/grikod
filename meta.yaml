@@ -1,12 +1,12 @@
-{% set version = "1.2.0" %}
-
+# meta.yaml
 package:
-  name: grikod
-  version: {{ version }}  # ← Jinja2 değişkeni kullanın, sabit değer değil
+  name: grikod2
+  version: "0.0.0"
 
 source:
-  path: .  # Yerel kaynak kodunun dizinini belirtin
-  # url ve sha256 satırlarını tamamen kaldırın (path kullanıldığında gerekmez)
+  path: .
+  url: 
+  blake2b-256: 
 
 build:
   noarch: python
