@@ -2,15 +2,14 @@
 
 package:
   name: grikod
-  version: "1.1.8"
+  version: {{ version }}  # ← Jinja2 değişkeni kullanın, sabit değer değil
 
 source:
   path: .  # Yerel kaynak kodunun dizinini belirtin
-  url: 
-  sha256: 
+  # url ve sha256 satırlarını tamamen kaldırın (path kullanıldığında gerekmez)
 
 build:
-  noarch: python  # Platformdan bağımsız bir paket oluşturur
+  noarch: python
   script: python -m pip install --ignore-installed .
   number: 0
 
@@ -33,4 +32,3 @@ about:
   dev_url: https://github.com/KuantumBS/grikod
   doc_url: https://github.com/KuantumBS/grikod
   doc_source_url: https://github.com/KuantumBS/grikod/blob/main/README.md
-  
