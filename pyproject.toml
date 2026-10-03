@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "grikod"
-version = "1.1.8"
+version = "1.2.0"
 description = "Binary to Gray code conversion package for efficient data encoding."
 readme = "README.md"
 requires-python = ">=3.11"
