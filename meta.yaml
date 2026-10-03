@@ -1,6 +1,6 @@
 # meta.yaml
 package:
-  name: grikod2
+  name: grikod
   version: "0.0.0"
 
 source:
